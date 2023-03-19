@@ -1,59 +1,81 @@
-body{
-    background-color: black;
-    color: whitesmoke;
+.head{
+    background-image: url("pexels-albin-biju-3831422.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+
 }
-html {
-    scroll-behavior: smooth;
+/* --------------navbar----------------- */
+ul{
+    margin-left: auto;
 }
-
-/* ===================== */
-
-
+.brand-logo{
+    padding-top: 10px;
+}
+.navbar-toggler,.brand-logo,.list-group-item{
+    color: #9CFF26;
+}
+i:hover{
+    color: rgb(252, 246, 246);
+}
 .nav-link:hover{
-    color: #F7C04A;
+    color: #9dff26bf;
 }
-
-/* ===================== */
-
-
-
-
-
-/* ===================== */
-
-h1{
-    color: #F7C04A;
+.nav-link{
+    margin-left: 15px;
 }
-h3{
-    padding-bottom: 15px;
+/* --------------------hero------------- */
+.row{
+    height: 89vh;
 }
-.v-menu{
-    color: #F7C04A;
-    border-color: #F7C04A;
+.col-10{
+    color: white;
 }
-.v-menu:hover{
-    background-color: #F7C04A;
-    color: black;
+.gg-facebook:hover{
+    color: #3B44F6;
 }
+.gg-instagram:hover {
+    color:#E4508F;
+}
+.gg-twitter:hover {
+    color: #2192FF;
+}
+.gg-mail:hover {
+    color: #EB5353;
+}
+.list-group-item{
+    background-color:transparent;
+    border: none;
+}
+.list-group{
+    padding-top: 20vh;
+    width: 50px;
+    margin-left: auto;
+}
+h6{
+    padding-top: 20vh;
+}
+/*------------------- Buttons------------ */
+.btn{
+    padding-left: 20px;
+    padding-right:20px;
+    margin-top: 10px;
+}
+.btn-right{
+    margin-left: 10px;
+}
+.btn-left::after {
+    content: "Explore";
+}
+.btn-left:hover::after {
+    content: "Explore >>>";
+}
+/* ---------------------------------------------- */
 
-/* -------------------------- */
-.about{
-    padding-top: 60px;
-    padding-bottom: 100px;
-}
-.about-img{
-    border-radius: 20px;
-    width: 90%;
-}
 
-/* ----------------------*/
-.card{
-    background-color: black;
-    transition: .3s
-}
-.card-img-top{
-    width: 200px;
-}
+/* ================================== */
 
+/* =================== */
 
 
