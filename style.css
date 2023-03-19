@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* ===================== */
+
+
+.nav-link:hover{
+    color: #F7C04A;
+}
+
+/* ===================== */
+
+
+
+
+
+/* ===================== */
+
+h1{
+    color: #F7C04A;
+}
+h3{
+    padding-bottom: 15px;
+}
+.v-menu{
+    color: #F7C04A;
+    border-color: #F7C04A;
+}
+.v-menu:hover{
+    background-color: #F7C04A;
+    color: black;
+}
+
+/* -------------------------- */
+.about{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.about-img{
+    border-radius: 20px;
+    width: 90%;
+}
+
+/* ----------------------*/
+.card{
+    background-color: black;
+    transition: .3s
+}
+.card-img-top{
+    width: 200px;
+}
+
+
+
