@@ -1,10 +1,15 @@
 body{
-    background-color:whitesmoke;
+    background-color:#EEEEEE;
     color: rgb(0, 0, 0);
     
 }
+
+
 html {
     scroll-behavior: smooth;
+}
+p{
+    color: rgba(0, 0, 0, 0.651);
 }
 
 /* ===================== */
@@ -20,12 +25,13 @@ ul{
 
 
 
-
-
 /* ===================== */
+.home-text{
+    text-align: center;
+}
 
 h1{
-    color: #FC7300;
+    color: #000000;
 }
 h3{
     padding-bottom: 15px;
@@ -40,8 +46,8 @@ h3{
 }
 
 /* -------------------------- */
-.about{
-    padding-top: 60px;
+.about ,.special , .offers{
+    padding-top: 110px;
     padding-bottom: 100px;
 }
 .about-img{
@@ -51,16 +57,56 @@ h3{
 
 /* ----------------------*/
 .card{
-    background-color:whitesmoke;
-    border: none;
+    background-color: #EEEEEe;
+    /* border: none; */
 }
 .card-img-top{
     width: 200px;
     padding-left: 100px;
 }
-.svg-i{
-   text-align: center;
+/* =============app-buttons============= */
+a img{
+    width: 120px;
 }
+/* =================== */
+.gg-facebook:hover {
+    color: #3B44F6;
+}
+
+.gg-instagram:hover {
+    color: #E4508F;
+}
+
+.gg-twitter:hover {
+    color: #2192FF;
+}
+
+.gg-mail:hover {
+    color: #EB5353;
+}
+.gg-phone:hover {
+    color: #10a034;
+}
+.list-group {
+    background-color: #EEEEEE;
+    width: 50px;
+    margin-left: auto;
+}
+.list-group-item {
+    background-color: transparent;
+    border: none;
+}
+.btn-c{
+    border: none;
+}
+.contact{
+    padding: 100px;
+}
+h5{
+    color: #FC7300;
+}
+
+
 
 
 
