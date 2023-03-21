@@ -4,7 +4,6 @@ body{
     
 }
 
-
 html {
     scroll-behavior: smooth;
 }
@@ -22,8 +21,6 @@ ul{
 }
 
 /* ===================== */
-
-
 
 /* ===================== */
 .home-text{
@@ -58,12 +55,19 @@ h3{
 /* ----------------------*/
 .card{
     background-color: #EEEEEe;
-    /* border: none; */
+    border: none;
+ 
+}
+.card:hover{
+background-color: #e2dede94;
+
 }
 .card-img-top{
-    width: 200px;
-    padding-left: 100px;
+    width: 150px;
+    margin: auto;
+
 }
+
 /* =============app-buttons============= */
 a img{
     width: 120px;
@@ -105,8 +109,3 @@ a img{
 h5{
     color: #FC7300;
 }
-
-
-
-
-
