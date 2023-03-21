@@ -15,6 +15,7 @@
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/twitter.css' rel='stylesheet'>
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/phone.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/shopping-cart.css' rel='stylesheet'>
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -45,7 +46,7 @@
                     </ul>
                 </div>
         </nav>
-        <div class="row container m-auto">
+        <div class="row container mx-auto">
             <div class="col-12 col-md-6 home-text m-auto">
                 <h1>Tasty Food</h1>
                 <h3>Try the best food of the week</h3>
@@ -60,7 +61,7 @@
 
 
         <section class="about container">
-            <div class="row container m-auto ">
+            <div class="row container m-auto  ">
                 <div class="col-12 col-md-6">
                     <div class="img-div container m-3">
                         <img class="about-img text-center" src="images/about.jpg" alt="image">
@@ -83,8 +84,8 @@
             <h1 class="text-center pb-4">Our amazing services</h1>
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-4 col-md-6">
-                        <div class="card shadow-lg" style="width: 18rem;">
+                    <div class="col-12 col-md-4 d-flex justify-content-center ">
+                        <div class="card" style="width: 18rem;">
                             <img src="images/vegan-food.png" class="card-img-top pt-4" alt="...">
                             <div class="card-body text-center">
                                 <h5 class="card-title">Excellent Food</h5>
@@ -96,8 +97,8 @@
                         </div>
 
                     </div>
-                    <div class="col-12 col-lg-4 col-md-6">
-                        <div class="card shadow-lg text-center " style="width: 18rem;">
+                    <div class="col-12  col-md-4 d-flex justify-content-center">
+                        <div class="card text-center " style="width: 18rem;">
                             <img src="images/burger.png" class="card-img-top pt-4" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Fast Food</h5>
@@ -107,8 +108,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 col-md-6 ">
-                        <div class="card shadow-lg text-center" style="width: 18rem;">
+                    <div class="col-12 col-md-4 d-flex justify-content-center">
+                        <div class="card  text-center" style="width: 18rem;">
                             <img src="images/truck.png  " class="card-img-top pt-4" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Delivery</h5>
@@ -125,43 +126,50 @@
         <section class="special container">
             <h5 class="text-center">Special</h5>
             <h1 class="text-center pb-4">Menu of the week</h1>
-
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col-12 col-lg-4 col-md-6 ">
-                    <div class="card " style="width: 18rem;">
-                        <img src="images/plate1.png  " class="card-img-top p-0 m-auto" alt="...">
-                        <div class="card-body shadow">
-                            <h5 >Barbecue salad</h5>
-                            <p class="card-text">Delicious dish.</p>
-                           <h5 class="card-title" >$12.00</h5>
-                            <button class="v-menu btn">View Menu</button>
-                        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4 d-flex justify-content-center ">
+                <div class="card cart shadow" style="width: 18rem;">
+                    <img src="images/plate1.png" class="card-img-top pt-4" alt="...">
+                    <div class="card-body ">
+                        <h5 class="card-title">Barbecue salad</h5>
+                        <p class="card-text">Delicious Dish</p>
+                        <h5>
+                            $22.00
+                            <button class="v-menu btn float-end"><i class="gg-shopping-cart"></i></button>
+                        </h5>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4 col-md-6 ">
-                    <div class="card shadow" style="width: 18rem;">
-                        <img src="images/plate2.png  " class="card-img-top p-0 m-auto" alt="...">
-                        <div class="card-body shadow">
-                            <h5 >Salad with fish</h5>
-                            <p class="card-text">Delicious dish</p>
-                            <h5 class="card-title">$28.00</h5>
-                            <button class="v-menu btn">View Menu</button>
-                        </div>
+    
+            </div>
+            <div class="col-12  col-md-4 d-flex justify-content-center">
+                <div class="card cart shadow " style="width: 18rem;">
+                    <img src="images/plate2.png" class="card-img-top pt-4" alt="...">
+                    <div class="card-body ">
+                        <h5 class="card-title">Barbecue salad</h5>
+                        <p class="card-text">Delicious Dish</p>
+                        <h5>
+                            $22.00
+                            <button class="v-menu btn float-end"><i class="gg-shopping-cart"></i></button>
+                        </h5>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4 col-md-6 ">
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/plate3.png  " class="card-img-top p-0 m-auto" alt="...">
-                        <div class="card-body shadow">
-                            <h5>Spinach salad</h5>
-                            <p class="card-text">Delicious dish</p>
-                        <h5 class="card-title">$22.00</h5>
-                            <button class="v-menu btn">View Menu</button>
-                        </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex justify-content-center">
+                <div class="card cart shadow" style="width: 18rem;">
+                    <img src="images/plate3.png" class="card-img-top pt-4" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Barbecue salad</h5>
+                        <p class="card-text">Delicious Dish</p>
+                        <h5>
+                            $22.00
+                            <button class="v-menu btn float-end"><i class="gg-shopping-cart"></i></button>
+                        </h5>
                     </div>
                 </div>
-
-
+            </div>
+        </div>
+    </div>
         </section>
 
         <section class="app container">
